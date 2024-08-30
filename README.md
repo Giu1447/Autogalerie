@@ -60,7 +60,7 @@ Die Webseite soll eine informative und visuell ansprechende Plattform rund um Au
 
 ### 4.1 Startseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/WireFrame.png)
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Wireframe.png)
 
 ## 5. Umsetzung und Planung
 
