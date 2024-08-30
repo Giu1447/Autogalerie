@@ -2,13 +2,8 @@
 
 ## Inhaltsverzeichnis
 
-1. [Ziel der Webseite](#ziel-der-webseite)
-2. [Hauptbereiche der Webseite](#hauptbereiche-der-webseite)
-   - [Startseite](#startseite)
-   - [Modelle-Seite](#modelle-seite)
-   - [Galerie](#galerie)
-   - [Videos](#videos)
-   - [Kontaktseite](#kontaktseite)
+1. [Projektübersicht](#projektübersicht)
+2. [Ziel der Webseite](#ziel-der-webseite)
 3. [Technologien](#technologien)
 4. [Wireframe-Übersicht](#wireframe-übersicht)
 5. [Umsetzung und Planung](#umsetzung-und-planung)
@@ -17,38 +12,13 @@
 8. [Umsetzung der Projektdokumentation](#umsetzung-der-projektdokumentation)
 9. [Persönliche Bewertung](#persönliche-bewertung)
 
-## 1. Ziel der Webseite
+## 1. Projektübersicht
 
-Die Webseite soll eine informative und visuell ansprechende Plattform rund um Autos bieten. Sie richtet sich an Autoliebhaber, potenzielle Käufer und Enthusiasten. Der Fokus liegt auf der Bereitstellung detaillierter Informationen über verschiedene Automodelle, beeindruckenden Bildergalerien und spannenden Videos.
+Dieses Projekt wurde im Rahmen eines Schulprojekts im Fach Informatik erstellt. Die Webseite dient dazu, meine eigenen Fotografien von Autos zu präsentieren und gleichzeitig Informationen zu den abgebildeten Automodellen bereitzustellen. Ziel ist es, eine visuell ansprechende Plattform zu schaffen, die sowohl Autoliebhabern als auch potenziellen Käufern interessante Einblicke bietet.
 
-## 2. Hauptbereiche der Webseite
+## 2. Ziel der Webseite
 
-### 2.1 Startseite
-
-- **Header:** Enthält das Logo und eine Navigationsleiste mit Links zu den wichtigsten Seiten (Startseite, Modelle, Galerie, Videos, Kontakt).
-- **Hero-Bereich:** Ein großes Bild eines Autos mit einem Slogan, das die Aufmerksamkeit der Besucher auf sich zieht.
-- **Kurze Einführung:** Ein kurzer Textabschnitt, der erklärt, was die Webseite bietet („Entdecken Sie die neuesten Automodelle“).
-- **CTA (Call to Action):** Ein „Mehr erfahren“-Button, der die Besucher zur Modelle-Seite führt.
-
-### 2.2 Modelle-Seite
-
-- **Liste der Modelle:** Eine Übersicht der verfügbaren Automodelle mit kurzen Beschreibungen und Bildern.
-- **Detailseiten:** Jede Modellübersicht führt zu einer Detailseite, die technische Daten, eine Bildergalerie und ein Video zu dem jeweiligen Modell enthält.
-
-### 2.3 Galerie
-
-- **Bildergalerie:** Eine Sammlung von hochauflösenden Bildern verschiedener Autos.
-- **Filteroptionen:** Die Möglichkeit, die Bilder nach Marke, Modell oder Typ zu filtern.
-
-### 2.4 Videos
-
-- **Video-Seite:** Enthält Videos von Testfahrten, Reviews und Slow-Motion-Aufnahmen von Autodetails.
-
-### 2.5 Kontaktseite
-
-- **Kontaktformular:** Ein einfaches Formular, in dem Besucher ihren Namen, ihre E-Mail-Adresse und eine Nachricht hinterlassen können.
-- **Standortkarte:** Eine Karte, die den Standort des Autohauses oder der Redaktion zeigt.
-- **Links zu sozialen Medien:** Verknüpfungen zu den sozialen Medien des Unternehmens.
+Die Webseite soll eine informative und visuell ansprechende Präsentation meiner eigenen Auto-Fotografien bieten. Sie richtet sich an Autoliebhaber, Enthusiasten und potenzielle Käufer, die mehr über die gezeigten Automodelle erfahren möchten. Neben beeindruckenden Bildern sollen detaillierte Informationen über die jeweiligen Fahrzeuge zur Verfügung stehen.
 
 ## 3. Technologien
 
@@ -61,6 +31,14 @@ Die Webseite soll eine informative und visuell ansprechende Plattform rund um Au
 ### 4.1 Startseite Wireframe
 
 ![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Wireframe.png)
+
+- **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
+- **Hero-Bereich:** Großes Auto-Bild mit Slogan und CTA-Button („Mehr erfahren“).
+- **Kurze Einführung:** Ein Textabschnitt, der die Webseite vorstellt.
+- **Modelle-Vorschau:** Drei bis vier quadratische Bilder mit Kurzbeschreibungen der beliebtesten Modelle und einem „Weitere Modelle“-Button.
+- **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
+
+Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
 
 ## 5. Umsetzung und Planung
 
@@ -102,8 +80,8 @@ Die Webseite soll eine informative und visuell ansprechende Plattform rund um Au
 
 ## 9. Persönliche Bewertung
 
-Die bisherige Arbeit an der Auto-Webseite hat mir ein tieferes Verständnis für die Anwendung von React und Tailwind CSS vermittelt. Die Erstellung des Wireframes war ein wichtiger Schritt, um die Struktur und das Design der Webseite zu planen. In den nächsten Schritten freue ich mich darauf, die Webseite weiterzuentwickeln und die geplanten Funktionen umzusetzen.
+Die bisherige Arbeit an der Auto-Webseite hat mir ein tieferes Verständnis für die Anwendung von React und Tailwind CSS vermittelt. Die Erstellung des Wireframes war ein wichtiger Schritt, um die Struktur und das Design der Webseite zu planen. In den nächsten Schritten freue ich mich darauf, die Webseite weiterzuentwickeln und die geplanten Funktionen umzusetzen, um meine Fotografien in einem ansprechenden Rahmen zu präsentieren.
 
-**[Giulian Mazzeo]**  
+**Giulian Mazzeo**  
 **Klasse:** 5IM22a  
 **Modul:** Informatik Prog 2
