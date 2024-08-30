@@ -1,59 +1,109 @@
 # Auto-Webseite Projekt
 
-## Ziel der Webseite
-Eine informative und visuell ansprechende Webseite rund um Autos. Sie richtet sich an Autoliebhaber, potenzielle Käufer und Enthusiasten. Die Seite bietet detaillierte Informationen über verschiedene Automodelle, beeindruckende Bildergalerien und spannende Videos.
+## Inhaltsverzeichnis
 
-## Hauptbereiche der Webseite
+1. [Ziel der Webseite](#ziel-der-webseite)
+2. [Hauptbereiche der Webseite](#hauptbereiche-der-webseite)
+   - [Startseite](#startseite)
+   - [Modelle-Seite](#modelle-seite)
+   - [Galerie](#galerie)
+   - [Videos](#videos)
+   - [Kontaktseite](#kontaktseite)
+3. [Technologien](#technologien)
+4. [Wireframe-Übersicht](#wireframe-übersicht)
+5. [Umsetzung und Planung](#umsetzung-und-planung)
+6. [GitHub/Projektmanagement](#github-projektmanagement)
+7. [Umsetzung des Ergebnisses](#umsetzung-des-ergebnisses)
+8. [Umsetzung der Projektdokumentation](#umsetzung-der-projektdokumentation)
+9. [Persönliche Bewertung](#persönliche-bewertung)
 
-### 1. Startseite
+## 1. Ziel der Webseite
+
+Die Webseite soll eine informative und visuell ansprechende Plattform rund um Autos bieten. Sie richtet sich an Autoliebhaber, potenzielle Käufer und Enthusiasten. Der Fokus liegt auf der Bereitstellung detaillierter Informationen über verschiedene Automodelle, beeindruckenden Bildergalerien und spannenden Videos.
+
+## 2. Hauptbereiche der Webseite
+
+### 2.1 Startseite
+
 - **Header:** Enthält das Logo und eine Navigationsleiste mit Links zu den wichtigsten Seiten (Startseite, Modelle, Galerie, Videos, Kontakt).
-- **Hero-Bereich:** Ein großes Bild eines Autos mit einem Slogan, das sofort die Aufmerksamkeit der Besucher auf sich zieht.
+- **Hero-Bereich:** Ein großes Bild eines Autos mit einem Slogan, das die Aufmerksamkeit der Besucher auf sich zieht.
 - **Kurze Einführung:** Ein kurzer Textabschnitt, der erklärt, was die Webseite bietet („Entdecken Sie die neuesten Automodelle“).
 - **CTA (Call to Action):** Ein „Mehr erfahren“-Button, der die Besucher zur Modelle-Seite führt.
 
-### 2. Modelle-Seite
+### 2.2 Modelle-Seite
+
 - **Liste der Modelle:** Eine Übersicht der verfügbaren Automodelle mit kurzen Beschreibungen und Bildern.
 - **Detailseiten:** Jede Modellübersicht führt zu einer Detailseite, die technische Daten, eine Bildergalerie und ein Video zu dem jeweiligen Modell enthält.
 
-### 3. Galerie
+### 2.3 Galerie
+
 - **Bildergalerie:** Eine Sammlung von hochauflösenden Bildern verschiedener Autos.
 - **Filteroptionen:** Die Möglichkeit, die Bilder nach Marke, Modell oder Typ zu filtern.
 
-### 4. Videos
+### 2.4 Videos
+
 - **Video-Seite:** Enthält Videos von Testfahrten, Reviews und Slow-Motion-Aufnahmen von Autodetails.
 
-### 5. Kontaktseite
+### 2.5 Kontaktseite
+
 - **Kontaktformular:** Ein einfaches Formular, in dem Besucher ihren Namen, ihre E-Mail-Adresse und eine Nachricht hinterlassen können.
 - **Standortkarte:** Eine Karte, die den Standort des Autohauses oder der Redaktion zeigt.
 - **Links zu sozialen Medien:** Verknüpfungen zu den sozialen Medien des Unternehmens.
 
-## Funktionen
-- **Responsive Design:** Die Webseite passt sich an verschiedene Bildschirmgrößen an und sieht sowohl auf Smartphones als auch auf Tablets und Desktops gut aus.
-- **Interaktive Elemente:** Animationen und Videos, die beim Scrollen abgespielt werden.
-- **Bildergalerie:** Ein interaktiver Slider, der die besten Auto-Bilder präsentiert.
-- **Videos:** Eingebettete Videos mit einer einfachen, benutzerfreundlichen Oberfläche.
+## 3. Technologien
 
-## Wireframe-Übersicht
+- **React:** Für die Entwicklung der interaktiven Benutzeroberfläche.
+- **Tailwind CSS:** Für das Styling und Design der Webseite, um eine konsistente und ansprechende Benutzeroberfläche zu gewährleisten.
+- **GitHub:** Für Versionskontrolle und Projektmanagement.
 
-### Startseite
-- **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
-- **Hero-Bereich:** Großes Auto-Bild mit Slogan und CTA-Button („Mehr erfahren“).
-- **Kurze Einführung:** Ein Textabschnitt, der die Webseite vorstellt.
-- **Modelle-Vorschau:** Drei bis vier quadratische Bilder mit Kurzbeschreibungen der beliebtesten Modelle und einem „Weitere Modelle“-Button.
-- **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
+## 4. Wireframe-Übersicht
 
-## Nächste Schritte
-1. Erstellen des Wireframes für die Startseite und die weiteren Unterseiten (Modelle, Galerie, Videos, Kontakt).
-2. Planung der Video- und Bildgalerien.
-3. Integration von Animationen (z.B. Bildwechsel, Seitenladeeffekte).
-4. Umsetzung der Webseite in HTML, CSS und JavaScript.
-5. Deployment auf GitHub Pages und Dokumentation des Fortschritts im GitHub-Repository.
+### 4.1 Startseite Wireframe
 
----
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/WireFrame Autogalerie.png)
 
-## Projektinformationen
-- **Projektname:** Auto-Webseite
-- **Erstellt von:** [Dein Name]
-- **Modul:** Informatik Prog 2
-- **Klasse:** 5IM22a
-#
+## 5. Umsetzung und Planung
+
+### Aktueller Status:
+
+- **Wireframe-Erstellung:** Das Wireframe für die Startseite ist fertiggestellt.
+- **Technologieauswahl:** React und Tailwind CSS wurden als Haupttechnologien für die Entwicklung festgelegt.
+
+### Geplante Schritte:
+
+1. **Erstellung der Wireframes für die restlichen Seiten:** Modelle, Galerie, Videos und Kontakt.
+2. **Umsetzung der Startseite in React:** Aufbau der Basisstruktur und Implementierung des Header- und Hero-Bereichs.
+3. **Styling mit Tailwind CSS:** Anwendung des Designs auf die Startseite und Anpassung für mobile Geräte.
+4. **Implementierung der Navigationslogik:** Einrichtung des React-Routers für die Navigation zwischen den verschiedenen Seiten.
+
+### Aufgabenstatus:
+
+- **Offen:** Gestaltung und Umsetzung der Modelle-Seite, Galerie und Kontaktseite.
+- **In Bearbeitung:** Entwicklung und Design der Startseite.
+- **Erledigt:** Auswahl der Technologien und Erstellung des ersten Wireframes.
+
+## 6. GitHub/Projektmanagement
+
+- Das Projekt wird auf GitHub gehostet und regelmäßig aktualisiert.
+- Alle Änderungen werden in kleinen, nachvollziehbaren Commits festgehalten.
+- Der Fortschritt wird über GitHub Issues und Project Boards dokumentiert.
+
+## 7. Umsetzung des Ergebnisses
+
+- Die Webseite wird gemäß den entworfenen Wireframes und unter Verwendung der festgelegten Technologien entwickelt.
+- Der aktuelle Fokus liegt auf der Implementierung der Startseite.
+- Die geplante Funktionalität und das Design entsprechen den Projektzielen und Anforderungen.
+
+## 8. Umsetzung der Projektdokumentation
+
+- Die Projektdokumentation wird fortlaufend im Git-Repository gepflegt.
+- Das Readme-Dokument enthält eine vollständige Übersicht über die Projektziele, Technologien und den aktuellen Stand der Entwicklung.
+- Änderungen und Fortschritte werden zeitnah dokumentiert, um einen transparenten Entwicklungsprozess sicherzustellen.
+
+## 9. Persönliche Bewertung
+
+Die bisherige Arbeit an der Auto-Webseite hat mir ein tieferes Verständnis für die Anwendung von React und Tailwind CSS vermittelt. Die Erstellung des Wireframes war ein wichtiger Schritt, um die Struktur und das Design der Webseite zu planen. In den nächsten Schritten freue ich mich darauf, die Webseite weiterzuentwickeln und die geplanten Funktionen umzusetzen.
+
+**[Giulian Mazzeo]**  
+**Klasse:** 5IM22a  
+**Modul:** Informatik Prog 2
