@@ -2,13 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4 mt-8">
+    <footer className="bg-main text-third p-4 mt-8 text-xs">
       <div className="container mx-auto text-center">
-        <p>&copy; 2024 Auto-Webseite. Alle Rechte vorbehalten.</p>
-        <p>
-          <a href="#" className="hover:text-gray-400">Impressum</a> | 
-          <a href="#" className="hover:text-gray-400">Datenschutz</a>
-        </p>
+        <p>&copy; 2024 Giu's Auto-Collection. Alle Bilder von Giulian Mazzeo.</p>
+        <p>Dieses Projekt wurde im Rahmen eines Schulprojekts erstellt.</p>
       </div>
     </footer>
   );

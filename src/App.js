@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Modelle from './pages/Modelle';
 import Galerie from './pages/Galerie';
 import Videos from './pages/Videos';
-import Kontakt from './pages/Kontakt';
 import Animation from './pages/Animation';
 
 const App = () => {
@@ -21,7 +20,6 @@ const App = () => {
             <Route path="/modelle" element={<Modelle />} />
             <Route path="/galerie" element={<Galerie />} />
             <Route path="/videos" element={<Videos />} />
-            <Route path="/kontakt" element={<Kontakt />} />
             <Route patht= "/animation" element={<Animation />} />
           </Routes>
         </main>
