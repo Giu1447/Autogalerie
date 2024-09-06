@@ -16,3 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mask-image {
+  mask-image: radial-gradient(circle at center, transparent 15%, black 50%);
+}
+
