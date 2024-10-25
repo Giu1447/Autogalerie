@@ -30,7 +30,7 @@ Die Webseite soll eine informative und visuell ansprechende Präsentation meiner
 
 ### 4.1 Startseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Wireframe.png)
+![alt text](https://raw.githubusercontent.com/Giu1447/Autogalerie/refs/heads/main/src/pictures/Wireframe.png)
 
 - **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
 - **Hero-Bereich:** Großes Auto-Bild mit Slogan und CTA-Button („Mehr erfahren“).
