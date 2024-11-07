@@ -6,9 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'main' : '#082072',
-        'second' : '#9a9285',
-        'third' : '#dbe2e1'
+        'primary': '#13212f',  // Dunkles Blau
+        'secondary': '#d3d5d9', // Hellgrau
+        'accent': '#006ade',    // Helles Blau
+        'highlight': '#1387eb', // Leuchtendes Blau
       }
     },
   },

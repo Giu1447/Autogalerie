@@ -30,12 +30,43 @@ Die Webseite soll eine informative und visuell ansprechende Präsentation meiner
 
 ### 4.1 Startseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Wireframe.png)
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Home.png)
 
 - **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
-- **Hero-Bereich:** Großes Auto-Bild mit Slogan und CTA-Button („Mehr erfahren“).
+- **Hero-Bereich:** Grosses Auto-Bild mit Slogan und CTA-Button („Mehr erfahren“).
 - **Kurze Einführung:** Ein Textabschnitt, der die Webseite vorstellt.
 - **Modelle-Vorschau:** Drei bis vier quadratische Bilder mit Kurzbeschreibungen der beliebtesten Modelle und einem „Weitere Modelle“-Button.
+- **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
+
+### 4.2 Modelleseite Wireframe
+
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Modelle.png)
+
+- **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
+- **Dropdown-Bereich:** Drodown Bereich um die Marken und Modelle auszusuchen.
+- **Carousel-Vorschau:** Carousel Vorschau der Bilder.
+- **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
+
+Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
+
+### 4.3 Galerieseite Wireframe
+
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Galerie.png)
+
+- **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
+- **Carousel-Vorschau:** Carousel Vorschau der Bilder geordnet nach den Marken.
+- **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
+
+Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
+
+### 4.4 Bewertungseite Wireframe
+
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Bewertung.png)
+
+- **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
+- **Carousel-Vorschau:** Carousel Vorschau der Bilder.
+- **Review:** Ein kurzes Review über das Auto.
+- **Review-Video:** Ein embedded Review Video auf Youtube.
 - **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
 
 Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
@@ -62,13 +93,13 @@ Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage f�
 
 ## 6. GitHub/Projektmanagement
 
-- Das Projekt wird auf GitHub gehostet und regelmäßig aktualisiert.
+- Das Projekt wird auf GitHub gehostet und regelmässig aktualisiert.
 - Alle Änderungen werden in kleinen, nachvollziehbaren Commits festgehalten.
 - Der Fortschritt wird über GitHub Issues und Project Boards dokumentiert.
 
 ## 7. Umsetzung des Ergebnisses
 
-- Die Webseite wird gemäß den entworfenen Wireframes und unter Verwendung der festgelegten Technologien entwickelt.
+- Die Webseite wird gemäss den entworfenen Wireframes und unter Verwendung der festgelegten Technologien entwickelt.
 - Der aktuelle Fokus liegt auf der Implementierung der Startseite.
 - Die geplante Funktionalität und das Design entsprechen den Projektzielen und Anforderungen.
 
