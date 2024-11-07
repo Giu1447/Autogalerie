@@ -5,20 +5,21 @@
 1. [Projektübersicht](#projektübersicht)
 2. [Ziel der Webseite](#ziel-der-webseite)
 3. [Technologien](#technologien)
-4. [Wireframe-Übersicht](#wireframe-übersicht)
-5. [Umsetzung und Planung](#umsetzung-und-planung)
-6. [GitHub/Projektmanagement](#github-projektmanagement)
-7. [Umsetzung des Ergebnisses](#umsetzung-des-ergebnisses)
-8. [Umsetzung der Projektdokumentation](#umsetzung-der-projektdokumentation)
-9. [Persönliche Bewertung](#persönliche-bewertung)
+4. [Bild- und Video-Planung](#bild-und-video-planung)
+5. [Wireframe-Übersicht](#wireframe-übersicht)
+6. [Umsetzung und Planung](#umsetzung-und-planung)
+7. [GitHub/Projektmanagement](#github-projektmanagement)
+8. [Umsetzung des Ergebnisses](#umsetzung-des-ergebnisses)
+9. [Umsetzung der Projektdokumentation](#umsetzung-der-projektdokumentation)
+10. [Persönliche Bewertung](#persönliche-bewertung)
 
 ## 1. Projektübersicht
 
-Dieses Projekt wurde im Rahmen eines Schulprojekts im Fach Informatik erstellt. Die Webseite dient dazu, meine eigenen Fotografien von Autos zu präsentieren und gleichzeitig Informationen zu den abgebildeten Automodellen bereitzustellen. Ziel ist es, eine visuell ansprechende Plattform zu schaffen, die sowohl Autoliebhabern als auch potenziellen Käufern interessante Einblicke bietet.
+Dieses Projekt wurde im Rahmen eines Schulprojekts im Fach Informatik erstellt. Die Webseite dient dazu, meine eigenen Fotografien und Videos von Autos zu präsentieren und gleichzeitig Informationen zu den abgebildeten Automodellen bereitzustellen. Die Bilder und Videos wurden auf der Automesse in Genf aufgenommen, was den Inhalt der Seite besonders authentisch macht.
 
 ## 2. Ziel der Webseite
 
-Die Webseite soll eine informative und visuell ansprechende Präsentation meiner eigenen Auto-Fotografien bieten. Sie richtet sich an Autoliebhaber, Enthusiasten und potenzielle Käufer, die mehr über die gezeigten Automodelle erfahren möchten. Neben beeindruckenden Bildern sollen detaillierte Informationen über die jeweiligen Fahrzeuge zur Verfügung stehen.
+Die Webseite soll eine informative und visuell ansprechende Präsentation meiner Auto-Fotografien bieten. Sie richtet sich an Autoliebhaber, Enthusiasten und potenzielle Käufer, die mehr über die gezeigten Automodelle erfahren möchten. Neben beeindruckenden Bildern sollen detaillierte Informationen über die Fahrzeuge zur Verfügung stehen.
 
 ## 3. Technologien
 
@@ -26,9 +27,29 @@ Die Webseite soll eine informative und visuell ansprechende Präsentation meiner
 - **Tailwind CSS:** Für das Styling und Design der Webseite, um eine konsistente und ansprechende Benutzeroberfläche zu gewährleisten.
 - **GitHub:** Für Versionskontrolle und Projektmanagement.
 
-## 4. Wireframe-Übersicht
+## 4. Bild- und Video-Planung
 
-### 4.1 Startseite Wireframe
+### 4.1 Fahrzeugauswahl
+
+Ich habe mich entschieden, die folgenden Fahrzeuge auf der Automesse in Genf zu fotografieren und zu filmen:
+
+- **McLaren P1**
+- **Bugatti Veyron**
+- **Ferrari LaFerrari**
+- **Porsche 959**
+- **Formel 1 Alfa Romeo**
+
+### 4.2 Videoaufnahmen
+
+Ziel der Videoaufnahmen ist es, dynamische Einblicke in die Details und Designs der Fahrzeuge zu geben. Die Videos zeigen die Fahrzeuge aus verschiedenen Winkeln und beinhalten Nahaufnahmen, um das Design und die technischen Details hervorzuheben.
+
+### 4.3 Bildaufnahmen
+
+Die Bilder wurden aufgenommen, um die Schönheit und Kraft der Autos einzufangen. Es gibt sowohl Gesamtaufnahmen als auch Detailaufnahmen, die den Charakter jedes Fahrzeugs widerspiegeln.
+
+## 5. Wireframe-Übersicht
+
+### 5.1 Startseite Wireframe
 
 ![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Home.png)
 
@@ -38,7 +59,7 @@ Die Webseite soll eine informative und visuell ansprechende Präsentation meiner
 - **Modelle-Vorschau:** Drei bis vier quadratische Bilder mit Kurzbeschreibungen der beliebtesten Modelle und einem „Weitere Modelle“-Button.
 - **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
 
-### 4.2 Modelleseite Wireframe
+### 5.2 Modelleseite Wireframe
 
 ![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Modelle.png)
 
@@ -49,7 +70,7 @@ Die Webseite soll eine informative und visuell ansprechende Präsentation meiner
 
 Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
 
-### 4.3 Galerieseite Wireframe
+### 5.3 Galerieseite Wireframe
 
 ![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Galerie.png)
 
@@ -59,7 +80,7 @@ Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage f�
 
 Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
 
-### 4.4 Bewertungseite Wireframe
+### 5.4 Bewertungseite Wireframe
 
 ![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Bewertung.png)
 
@@ -69,9 +90,9 @@ Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage f�
 - **Review-Video:** Ein embedded Review Video auf Youtube.
 - **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
 
-Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
+Bisher wurde das Wireframe für die Startseite erstellt, das als Grundlage für die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den nächsten Schritten ebenfalls als Wireframes entworfen.
 
-## 5. Umsetzung und Planung
+## 6. Umsetzung und Planung
 
 ### Aktueller Status:
 
@@ -91,25 +112,25 @@ Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage f�
 - **In Bearbeitung:** Entwicklung und Design der Startseite.
 - **Erledigt:** Auswahl der Technologien und Erstellung des ersten Wireframes.
 
-## 6. GitHub/Projektmanagement
+## 7. GitHub/Projektmanagement
 
 - Das Projekt wird auf GitHub gehostet und regelmässig aktualisiert.
 - Alle Änderungen werden in kleinen, nachvollziehbaren Commits festgehalten.
 - Der Fortschritt wird über GitHub Issues und Project Boards dokumentiert.
 
-## 7. Umsetzung des Ergebnisses
+## 8. Umsetzung des Ergebnisses
 
 - Die Webseite wird gemäss den entworfenen Wireframes und unter Verwendung der festgelegten Technologien entwickelt.
 - Der aktuelle Fokus liegt auf der Implementierung der Startseite.
 - Die geplante Funktionalität und das Design entsprechen den Projektzielen und Anforderungen.
 
-## 8. Umsetzung der Projektdokumentation
+## 9. Umsetzung der Projektdokumentation
 
 - Die Projektdokumentation wird fortlaufend im Git-Repository gepflegt.
 - Das Readme-Dokument enthält eine vollständige Übersicht über die Projektziele, Technologien und den aktuellen Stand der Entwicklung.
 - Änderungen und Fortschritte werden zeitnah dokumentiert, um einen transparenten Entwicklungsprozess sicherzustellen.
 
-## 9. Persönliche Bewertung
+## 10. Persönliche Bewertung
 
 Die bisherige Arbeit an der Auto-Webseite hat mir ein tieferes Verständnis für die Anwendung von React und Tailwind CSS vermittelt. Die Erstellung des Wireframes war ein wichtiger Schritt, um die Struktur und das Design der Webseite zu planen. In den nächsten Schritten freue ich mich darauf, die Webseite weiterzuentwickeln und die geplanten Funktionen umzusetzen, um meine Fotografien in einem ansprechenden Rahmen zu präsentieren.
 
