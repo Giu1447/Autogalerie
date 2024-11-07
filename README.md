@@ -51,7 +51,7 @@ Die Bilder wurden aufgenommen, um die Schönheit und Kraft der Autos einzufangen
 
 ### 5.1 Startseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Home.png)
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/src/pictures/Home.png)
 
 - **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
 - **Hero-Bereich:** Grosses Auto-Bild mit Slogan und CTA-Button („Mehr erfahren“).
@@ -61,7 +61,7 @@ Die Bilder wurden aufgenommen, um die Schönheit und Kraft der Autos einzufangen
 
 ### 5.2 Modelleseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Modelle.png)
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/src/pictures/Modelle.png)
 
 - **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
 - **Dropdown-Bereich:** Drodown Bereich um die Marken und Modelle auszusuchen.
@@ -72,7 +72,7 @@ Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage f�
 
 ### 5.3 Galerieseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Galerie.png)
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/src/pictures/Galerie.png)
 
 - **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
 - **Carousel-Vorschau:** Carousel Vorschau der Bilder geordnet nach den Marken.
@@ -82,7 +82,7 @@ Bisher habe ich das Wireframe für die Startseite erstellt, das als Grundlage f�
 
 ### 5.4 Bewertungseite Wireframe
 
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/pictures/Bewertung.png)
+![alt text](https://github.com/Giu1447/Autogalerie/blob/main/src/pictures/Bewertung.png)
 
 - **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
 - **Carousel-Vorschau:** Carousel Vorschau der Bilder.
