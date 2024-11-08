@@ -4,11 +4,11 @@ const Galerie = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "https://via.placeholder.com/600x400?text=Image+1",
-    "https://via.placeholder.com/600x400?text=Image+2",
-    "https://via.placeholder.com/600x400?text=Image+3",
-    "https://via.placeholder.com/600x400?text=Image+4",
-    "https://via.placeholder.com/600x400?text=Image+5"
+    "https://placehold.co/600x400/orange/white",
+    "https://placehold.co/600x400/blue/white",
+    "https://placehold.co/600x400/green/white",
+    "https://placehold.co/600x400/purple/white",
+    "https://placehold.co/600x400/yellow/white",
   ];
 
   const goToPrevious = () => {
@@ -34,18 +34,23 @@ const Galerie = () => {
               />
             </div>
 
+            {/* Linker Pfeil */}
             <button
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-primary bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 text-highlight"
+                className="absolute top-1/2 left-[-100px] transform -translate-y-1/2 bg-gray-700 bg-opacity-80 p-3 rounded-full hover:bg-opacity-90 text-white"
                 onClick={goToPrevious}
             >
-              ❮
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+              </svg>
             </button>
 
             <button
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-primary bg-opacity-50 p-2 rounded-full hover:bg-opacity-75 text-highlight"
+                className="absolute top-1/2 right-[-100px] transform -translate-y-1/2 bg-gray-700 bg-opacity-80 p-3 rounded-full hover:bg-opacity-90 text-white"
                 onClick={goToNext}
             >
-              ❯
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5l7.5 7.5m0 0-7.5 7.5M21 12H3" />
+              </svg>
             </button>
           </div>
         </div>

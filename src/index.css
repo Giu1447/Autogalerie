@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
+  scroll-behavior: smooth; /* Für weiches Scrollen */
+}
+
+body {
+  overscroll-behavior-y: contain; /* Verhindert Überschießen */
+}
+
+
 
 body {
   margin: 0;
