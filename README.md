@@ -8,10 +8,12 @@
 4. [Bild- und Video-Planung](#bild-und-video-planung)
 5. [Wireframe-Übersicht](#wireframe-übersicht)
 6. [Umsetzung und Planung](#umsetzung-und-planung)
-7. [GitHub/Projektmanagement](#github-projektmanagement)
-8. [Umsetzung des Ergebnisses](#umsetzung-des-ergebnisses)
-9. [Umsetzung der Projektdokumentation](#umsetzung-der-projektdokumentation)
-10. [Persönliche Bewertung](#persönliche-bewertung)
+7. [Backend-Inegration](#backend-integration)
+8. [Tests und Optimierungen](#tests-und-optimierungen)
+9. [GitHub/Projektmanagement](#github-projektmanagement)
+10. [Umsetzung des Ergebnisses](#umsetzung-des-ergebnisses)
+11. [Umsetzung der Projektdokumentation](#umsetzung-der-projektdokumentation)
+12. [Persönliche Bewertung](#persönliche-bewertung)
 
 ## 1. Projektübersicht
 
@@ -112,25 +114,88 @@ Bisher wurde das Wireframe für die Startseite erstellt, das als Grundlage für 
 - **In Bearbeitung:** Entwicklung und Design der Startseite.
 - **Erledigt:** Auswahl der Technologien und Erstellung des ersten Wireframes.
 
-## 7. GitHub/Projektmanagement
+## 7. Backend-Integration
+
+### 7.1 Ziele des Backends
+
+Das Backend wurde entwickelt, um die Bild- und Videodaten zentral zu speichern und für das Frontend bereitzustellen. Es ermöglicht:  
+
+- Eine REST-API, um Bilder und Videos hochzuladen und abzurufen.  
+- Speicherung von Mediendaten in einer Datenbank (z. B. MySQL oder H2).  
+- Effiziente Verwaltung der Mediendaten über Endpunkte.  
+
+### 7.2 Technologien im Backend
+
+- **Spring Boot:** Für die Entwicklung der REST-API.  
+- **MySQL:** Für die persistente Speicherung der Daten.  
+- **Maven:** Für das Dependency Management und die Build-Konfiguration.
+
+### 7.3 Backend-Funktionalitäten
+
+1. **API-Endpunkte:**  
+   - **`GET /images`**: Gibt eine Liste der gespeicherten Bilder zurück.  
+   - **`POST /images`**: Ermöglicht das Hochladen von neuen Bildern.  
+   - **`GET /videos`**: Gibt eine Liste der gespeicherten Videos zurück.  
+   - **`POST /videos`**: Ermöglicht das Hochladen von neuen Videos.  
+
+2. **Bild- und Video-Verwaltung:**  
+   - Speicherung der Dateien auf dem Server oder in der Datenbank.  
+   - Bereitstellung von URLs, die im Frontend verwendet werden können.  
+
+3. **Frontend-Integration:**  
+   - API-Aufrufe über Axios/`fetch()` im Frontend, um dynamische Inhalte anzuzeigen.  
+
+## 8. Tests und Optimierungen
+
+### 8.1 Teststrategie
+
+Um die Qualität und Zuverlässigkeit der Webseite sicherzustellen, wurden verschiedene Tests durchgeführt:  
+
+1. **Backend-Tests:**  
+   - Unit Tests für die REST-API-Endpunkte (z. B. mit JUnit).  
+   - Integrationstests, um die Kommunikation zwischen Backend und Datenbank zu überprüfen.  
+
+2. **Frontend-Tests:**  
+   - Component Tests mit Jest und Testing Library.  
+   - Tests der API-Aufrufe, um sicherzustellen, dass die Endpunkte korrekt integriert sind.  
+
+3. **Google Lighthouse:**  
+   - Durchführung von Analysen zur Leistung, Barrierefreiheit, Best Practices und SEO.  
+   - Optimierungen auf Basis der Ergebnisse:  
+     - **Leistung:** Lazy Loading für Bilder, Reduzierung der Bildgröße.  
+     - **Barrierefreiheit:** Verbesserungen bei Farbkontrasten und Screenreader-Kompatibilität.  
+     - **Best Practices:** Konsistenz bei Meta-Tags und sicherer Zugriff.  
+     - **SEO:** Hinzufügen von Alt-Texten für Bilder, strukturierte Daten.
+
+### 8.2 Testresultate
+
+- **Backend:** Alle Endpunkte liefern die erwarteten Ergebnisse und bestehen die Tests.  
+- **Frontend:** Komponenten wie das Bildkarussell und die Navigation sind fehlerfrei.  
+- **Lighthouse:**  
+  - Leistung: 90+  
+  - Barrierefreiheit: 95+  
+  - Best Practices: 100  
+  - SEO: 90+
+
+## 9. GitHub/Projektmanagement
 
 - Das Projekt wird auf GitHub gehostet und regelmässig aktualisiert.
 - Alle Änderungen werden in kleinen, nachvollziehbaren Commits festgehalten.
 - Der Fortschritt wird über GitHub Issues und Project Boards dokumentiert.
 
-## 8. Umsetzung des Ergebnisses
+## 10. Umsetzung des Ergebnisses
 
 - Die Webseite wird gemäss den entworfenen Wireframes und unter Verwendung der festgelegten Technologien entwickelt.
 - Der aktuelle Fokus liegt auf der Implementierung der Startseite.
 - Die geplante Funktionalität und das Design entsprechen den Projektzielen und Anforderungen.
 
-## 9. Umsetzung der Projektdokumentation
+## 11. Umsetzung der Projektdokumentation
 
 - Die Projektdokumentation wird fortlaufend im Git-Repository gepflegt.
 - Das Readme-Dokument enthält eine vollständige Übersicht über die Projektziele, Technologien und den aktuellen Stand der Entwicklung.
 - Änderungen und Fortschritte werden zeitnah dokumentiert, um einen transparenten Entwicklungsprozess sicherzustellen.
 
-## 10. Persönliche Bewertung
+## 12. Persönliche Bewertung
 
 Die bisherige Arbeit an der Auto-Webseite hat mir ein tieferes Verständnis für die Anwendung von React und Tailwind CSS vermittelt. Die Erstellung des Wireframes war ein wichtiger Schritt, um die Struktur und das Design der Webseite zu planen. In den nächsten Schritten freue ich mich darauf, die Webseite weiterzuentwickeln und die geplanten Funktionen umzusetzen, um meine Fotografien in einem ansprechenden Rahmen zu präsentieren.
 
