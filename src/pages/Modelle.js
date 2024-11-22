@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const Modelle = () => {
   return (
       <div className="container mx-auto p-4 bg-primary">
-        <h1 className="text-3xl font-bold text-highlight mb-4">Modelle</h1>
         <div className="flex flex-col items-center">
           <p className="text-secondary mb-8">Entdecken Sie die verschiedenen Modelle in unserer Kollektion.</p>
 

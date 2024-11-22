@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-      <header className="bg-primary p-4 shadow-md">
+      <header className="bg-gradient-to-b from-primary to-header p-4 shadow-md drop-shadow-2xl">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-secondary text-xl font-bold">
             <Link to="/">AutoGalerie</Link>

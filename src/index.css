@@ -10,12 +10,12 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden; /* Verhindert horizontales Scrollen */
-  scroll-behavior: smooth; /* Für weiches Scrollen */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  overscroll-behavior-y: contain; /* Verhindert Überschießen */
+  overscroll-behavior-y: contain;
 }
 
 
