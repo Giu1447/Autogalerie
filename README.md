@@ -82,18 +82,6 @@ Bisher habe ich das Wireframe f체r die Startseite erstellt, das als Grundlage f�
 
 Bisher habe ich das Wireframe f체r die Startseite erstellt, das als Grundlage f체r die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den n채chsten Schritten ebenfalls als Wireframes entworfen.
 
-### 5.4 Bewertungseite Wireframe
-
-![alt text](https://github.com/Giu1447/Autogalerie/blob/main/src/pictures/Bewertung.png)
-
-- **Header:** Links das Logo, rechts die Navigationsleiste (Startseite, Modelle, Galerie, Videos, Kontakt).
-- **Carousel-Vorschau:** Carousel Vorschau der Bilder.
-- **Review:** Ein kurzes Review 체ber das Auto.
-- **Review-Video:** Ein embedded Review Video auf Youtube.
-- **Footer:** Kontaktinformationen, Links zu sozialen Medien, Impressum/Datenschutz.
-
-Bisher wurde das Wireframe f체r die Startseite erstellt, das als Grundlage f체r die Implementierung dient. Die weiteren Seiten wie Modelle, Galerie, Videos und Kontakt werden in den n채chsten Schritten ebenfalls als Wireframes entworfen.
-
 ## 6. Umsetzung und Planung
 
 ### Aktueller Status:
