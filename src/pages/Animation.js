@@ -5,10 +5,16 @@ const Animation = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     const [rotation, setRotation] = useState(0);
     const carRef = useRef(null);
+    const containerRef = useRef(null);
     const requestRef = useRef(null);
 
     const handleMouseMove = (event) => {
-        setMousePosition({ x: event.clientX, y: event.clientY });
+        if (containerRef.current) {
+            const rect = containerRef.current.getBoundingClientRect();
+            const x = Math.max(0, Math.min(event.clientX - rect.left, rect.width));
+            const y = Math.max(0, Math.min(event.clientY - rect.top, rect.height));
+            setMousePosition({ x, y });
+        }
     };
 
     const updatePositionAndRotation = () => {
@@ -17,7 +23,7 @@ const Animation = () => {
             const carY = carRef.current.getBoundingClientRect().top + carRef.current.clientHeight / 2;
             const dx = mousePosition.x - carX;
             const dy = mousePosition.y - carY;
-            const angle = Math.atan2(dy, dx) * (180 / Math.PI); // Berechnung des Drehwinkels
+            const angle = Math.atan2(dy, dx) * (180 / Math.PI);
             setRotation(angle);
         }
 
@@ -36,20 +42,24 @@ const Animation = () => {
     }, [mousePosition]);
 
     return (
-        <div className="container mx-auto p-4 bg-white h-screen">
-            <h1 className="text-3xl font-bold text-main mb-4">Auto folgt der Maus!</h1>
-
+        <div className="flex flex-col h-screen">
             <div
-                ref={carRef}
-                style={{
-                    position: 'absolute',
-                    left: `${mousePosition.x - 50}px`,
-                    top: `${mousePosition.y - 50}px`,
-                    transition: 'left 0.05s ease-out, top 0.05s ease-out',
-                    transform: `rotate(${rotation}deg)`,
-                }}
+                ref={containerRef}
+                className="flex-grow relative bg-gray-100 overflow-hidden"
+                style={{ position: 'relative' }}
             >
-                <Car className="w-16 h-16" />
+                <div
+                    ref={carRef}
+                    style={{
+                        position: 'absolute',
+                        left: `${mousePosition.x - 50}px`,
+                        top: `${mousePosition.y - 50}px`,
+                        transform: `rotate(${rotation}deg)`,
+                        transition: 'left 0.05s ease-out, top 0.05s ease-out',
+                    }}
+                >
+                    <Car className="w-16 h-16" />
+                </div>
             </div>
         </div>
     );
