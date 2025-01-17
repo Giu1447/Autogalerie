@@ -28,15 +28,6 @@ const Header = () => {
               Galerie
             </Link>
             <Link
-                to="/videos"
-                className="text-secondary transition duration-300 relative
-              after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-accent
-              after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300
-              after:origin-left"
-            >
-              Videos
-            </Link>
-            <Link
                 to="/animation"
                 className="text-secondary transition duration-300 relative
               after:block after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-accent
