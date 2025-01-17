@@ -5,34 +5,42 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Modelle = () => {
   const cars = {
-    BMW: {
-      "3er Serie": [
-        "https://placehold.co/600x400/blue/white?text=BMW+Series+3",
-        "https://placehold.co/600x400/yellow/white?text=BMW+Series+3",
-        "https://placehold.co/600x400/black/white?text=BMW+Series+3",
-        "https://placehold.co/600x400/orange/white?text=BMW+Series+3",
-        "https://placehold.co/600x400/pink/white?text=BMW+Series+3"
+    Ferrari: {
+      LaFerrari: [
+        require('../pictures/cars/ferrari_laferrari_5.JPG'),
+        require('../pictures/cars/ferrari_laferrari.JPG'),
+        require('../pictures/cars/ferrari_laferrari_2.JPG'),
+        require('../pictures/cars/ferrari_laferrari_3.JPG'),
       ],
-      "5er Serie": [
-        "https://placehold.co/600x400/blue/white?text=BMW+Series+5",
-        "https://placehold.co/600x400/black/white?text=BMW+Series+5",
-        "https://placehold.co/600x400/yellow/white?text=BMW+Series+5",
-        "https://placehold.co/600x400/orange/white?text=BMW+Series+5",
-        "https://placehold.co/600x400/pink/white?text=BMW+Series+5",
-      ],
+      F40: [require('../pictures/cars/ferrari_f40.JPG')],
     },
-    Audi: {
-      A4: [
-        "https://placehold.co/600x400/black/white?text=Audi+A4",
-        "https://placehold.co/600x400/blue/white?text=Audi+A4",
-        "https://placehold.co/600x400/pink/white?text=Audi+A4",
-        "https://placehold.co/600x400/orange/white?text=Audi+A4",
-        "https://placehold.co/600x400/yellow/white?text=Audi+A4",
+    "Aston Martin": {
+      Valkyrie: [require('../pictures/cars/astonmartin.JPG')]
+    },
+    BMW: {
+      2002: [require('../pictures/cars/bmw.JPG')],
+    },
+    Bugatti: {
+      Veyron: [require('../pictures/cars/bugatti_veyron.JPG')],
+    },
+    Lamborghini: [require('../pictures/cars/lamborghini.JPEG')],
+    McLaren: {
+      P1: [require('../pictures/cars/mclaren_p1.JPG')],
+      "P1 GTR": [require('../pictures/cars/mclaren_p1gtr.JPEG')],
+    },
+    Pagani: {
+      Huayra: [require('../pictures/cars/pagani_huayra.JPG')],
+    },
+    Porsche: {
+      911: [require('../pictures/cars/porsche_3.JPG')],
+      GT3RS: [
+        require('../pictures/cars/porsche_gt3rs.JPEG'),
+        require('../pictures/cars/porsche_gt3rs_2.JPEG'),
       ],
     },
   };
 
-  const [selectedBrand, setSelectedBrand] = useState("BMW");
+  const [selectedBrand, setSelectedBrand] = useState("Ferrari");
   const [selectedModel, setSelectedModel] = useState("");
   const [brandDropdownOpen, setBrandDropdownOpen] = useState(false);
   const [modelDropdownOpen, setModelDropdownOpen] = useState(false);
@@ -143,17 +151,34 @@ const Modelle = () => {
         {/* Carousel */}
         <div className="relative max-w-4xl mx-auto">
           {selectedBrand && selectedModel && cars[selectedBrand][selectedModel] ? (
-              <Slider {...settings}>
-                {cars[selectedBrand][selectedModel].map((image, index) => (
-                    <div key={index}>
+              // Stelle sicher, dass immer ein Array vorhanden ist
+              Array.isArray(cars[selectedBrand][selectedModel]) ? (
+                  cars[selectedBrand][selectedModel].length === 1 ? (
                       <img
-                          src={image}
-                          alt={`${selectedBrand} ${selectedModel} - ${index + 1}`}
-                          className="w-full h-[400px] object-cover rounded-lg"
+                          src={cars[selectedBrand][selectedModel][0]}
+                          alt={`${selectedBrand} ${selectedModel}`}
+                          className="w-full h-[400px] object-contain rounded-lg"
                       />
-                    </div>
-                ))}
-              </Slider>
+                  ) : (
+                      <Slider {...settings}>
+                        {cars[selectedBrand][selectedModel].map((image, index) => (
+                            <div key={index}>
+                              <img
+                                  src={image}
+                                  alt={`${selectedBrand} ${selectedModel} - ${index + 1}`}
+                                  className="w-full h-[400px] object-contain rounded-lg"
+                              />
+                            </div>
+                        ))}
+                      </Slider>
+                  )
+              ) : (
+                  <img
+                      src={cars[selectedBrand][selectedModel]}
+                      alt={`${selectedBrand} ${selectedModel}`}
+                      className="w-full h-[400px] object-contain rounded-lg"
+                  />
+              )
           ) : (
               <p className="text-secondary text-center">Bitte eine Marke und ein Modell auswählen.</p>
           )}

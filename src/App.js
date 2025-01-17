@@ -6,7 +6,6 @@ import Header from './components/header';
 import Home from './pages/Home';
 import Modelle from './pages/Modelle';
 import Galerie from './pages/Galerie';
-import Videos from './pages/Videos';
 import Animation from './pages/Animation';
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
             <Route exact path="/" element={<Home />} />
             <Route path="/modelle" element={<Modelle />} />
             <Route path="/galerie" element={<Galerie />} />
-            <Route path="/videos" element={<Videos />} />
             <Route path= "/animation" element={<Animation />} />
           </Routes>
         </main>

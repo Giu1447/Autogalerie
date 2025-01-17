@@ -54,10 +54,10 @@ const Home = () => {
           <div className="p-4 border rounded-lg shadow-md flex flex-col justify-between items-center w-full sm:w-3/4">
             <div>
               <h2 className="text-xl font-semibold mb-2 text-highlight">Videos</h2>
-              <p className="text-secondary">Sehen Sie sich unsere aufregenden Autovideos an.</p>
+              <p className="text-secondary">Sehen sie sich die atemberaubende Bildergalerie an mit allen möglichen Bildern</p>
             </div>
             <Link
-                to="/videos"
+                to="/galerie"
                 className="mt-4 bg-transparent text-white rounded-lg transition duration-300 transform hover:scale-105 px-4 py-1.5
             border-2 border-accent self-end"
             >
